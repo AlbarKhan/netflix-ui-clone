@@ -1,0 +1,19 @@
+@media (max-width: 1025px) {
+  header .sign-option {
+    width: 70%;
+  }
+}
+@media (max-width: 786px) {
+  header .sign-option {
+    width: 87%;
+  }
+}
+
+@media (max-width: 486px) {
+  header .header-slogan h2 {
+    font-size: 25px;
+  }
+  header .sign-option {
+    width: 100%;
+  }
+}
