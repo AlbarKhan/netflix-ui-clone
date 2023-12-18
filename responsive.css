@@ -7,6 +7,18 @@
   header .sign-option {
     width: 87%;
   }
+  .main-wrapper .section-one .section-one-title {
+    font-size: 32px;
+  }
+
+  .main-wrapper .section-one .section-one-para {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .main-wrapper .section-one .row div {
+    align-items: center;
+  }
 }
 
 @media (max-width: 486px) {
