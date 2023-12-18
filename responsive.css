@@ -7,16 +7,17 @@
   header .sign-option {
     width: 87%;
   }
-  .main-wrapper .section-one .section-one-title {
+  .main-wrapper .section .section-title {
     font-size: 32px;
+    text-align: center;
   }
 
-  .main-wrapper .section-one .section-one-para {
+  .main-wrapper .section .section-para {
     font-size: 18px;
     text-align: center;
   }
 
-  .main-wrapper .section-one .row div {
+  .main-wrapper .section .row div {
     align-items: center;
   }
 }

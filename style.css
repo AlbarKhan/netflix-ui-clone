@@ -45,14 +45,14 @@ header .sign-option {
   width: 48%;
 }
 
-.main-wrapper .section-one {
+.main-wrapper .section {
   background-color: black;
 }
 
-.main-wrapper .section-one .section-one-title {
+.main-wrapper .section .section-title {
   font-size: 48px;
 }
 
-.main-wrapper .section-one .section-one-para {
+.main-wrapper .section .section-para {
   font-size: 24px;
 }
