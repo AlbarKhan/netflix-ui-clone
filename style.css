@@ -6,7 +6,7 @@
 
 nav .sign-btn {
   background-color: red;
-  height: 18%;
+  /* height: 18%; */
   /* margin-top: ; */
 }
 
@@ -15,18 +15,32 @@ header {
     url(https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_large.jpg);
   /* background-color: rgba(0, 0, 0, 0.1); */
   padding-bottom: 100px;
+  height: 600px;
 }
-
+header select {
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  padding: 0.9rem 1.2rem;
+}
+header .sign-option button {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+}
+header .sign-option input {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+header .sign-option input::placeholder {
+  color: white;
+}
 header .header-slogan h2 {
   font-size: 42px;
 }
-
 header .header-slogan p {
   font-size: 18px;
   font-weight: 400;
 }
-
 header .sign-option {
-  /* border: 1px solid red; */
   width: 48%;
 }
