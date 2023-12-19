@@ -23,6 +23,9 @@
   .main-wrapper .section .row div {
     align-items: center;
   }
+  .main-wrapper .questions .head h2 {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 486px) {

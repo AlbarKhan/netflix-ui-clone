@@ -132,6 +132,8 @@
         </div>
       </section>
       <!-- section 3 end -->
+
+      <!-- SECTION 4 START -->
       <section class="section mt-2">
         <div class="container-md">
           <div class="row reverse">
@@ -154,8 +156,113 @@
           </div>
         </div>
       </section>
-      <!-- SECTION 2 END -->
+      <!-- SECTION 4 END -->
+
+      <section class="questions mt-2 pt-3">
+        <div class="container-md text-center">
+          <div class="head">
+            <h2 class="question-title text-light">
+              Frequently Asked Questions
+            </h2>
+          </div>
+          <div class="accordiann">
+            <button class="accordion bg-dark text-light">
+              What is Netflix
+            </button>
+            <div class="panel bg-dark text-light text-start md-2">
+              <p>
+                LNetflix is a streaming service that offers a wide variety of
+                award-winning TV shows, movies, anime, documentaries and more –
+                on thousands of internet-connected devices. You can watch as
+                much as you want, whenever you want, without a single ad – all
+                for one low monthly price. There's always something new to
+                discover, and new TV shows and movies are added every week
+              </p>
+            </div>
+
+            <button class="accordion bg-dark text-light">
+              How much does Netflix cost
+            </button>
+            <div class="panel bg-dark text-light text-start">
+              <p>
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
+                streaming device, all for one fixed monthly fee. Plans range
+                from ₹149 to ₹649 a month. No extra costs, no contracts
+              </p>
+            </div>
+
+            <button class="accordion bg-dark text-light">
+              Where can i watch
+            </button>
+            <div class="panel bg-dark text-light text-start">
+              <p>
+                Watch anywhere, anytime. Sign in with your Netflix account to
+                watch instantly on the web at netflix.com from your personal
+                computer or on any internet-connected device that offers the
+                Netflix app, including smart TVs, smartphones, tablets,
+                streaming media players and game consoles. You can also download
+                your favourite shows with the iOS, Android, or Windows 10 app.
+                Use downloads to watch while you're on the go and without an
+                internet connection. Take Netflix with you anywhere.
+              </p>
+            </div>
+            <button class="accordion bg-dark text-light">
+              How do I cancel
+            </button>
+            <div class="panel bg-dark text-light text-start md-2">
+              <p>
+                LNetflix is flexible. There are no annoying contracts and no
+                commitments. You can easily cancel your account online in two
+                clicks. There are no cancellation fees – start or stop your
+                account anytime.
+              </p>
+            </div>
+
+            <button class="accordion bg-dark text-light">
+              What can I watch on Netflix
+            </button>
+            <div class="panel bg-dark text-light text-start">
+              <p>
+                Netflix has an extensive library of feature films,
+                documentaries, TV shows, anime, award-winning Netflix originals,
+                and more. Watch as much as you want, anytime you want.
+              </p>
+            </div>
+
+            <button class="accordion bg-dark text-light">
+              Is Netflix good for kids ?
+            </button>
+            <div class="panel bg-dark text-light text-start">
+              <p>
+                The Netflix Kids experience is included in your membership to
+                give parents control while kids enjoy family-friendly TV shows
+                and films in their own space. Kids profiles come with
+                PIN-protected parental controls that let you restrict the
+                maturity rating of content kids can watch and block specific
+                titles you don’t want kids to see.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <!-- MAIN CONTENT  END -->
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
   </body>
 </html>
