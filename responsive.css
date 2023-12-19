@@ -1,10 +1,10 @@
 @media (max-width: 1025px) {
-  header .sign-option {
+  .sign-option {
     width: 70%;
   }
 }
 @media (max-width: 786px) {
-  header .sign-option {
+  .sign-option {
     width: 87%;
   }
   .main-wrapper .section {
@@ -26,6 +26,14 @@
   .main-wrapper .questions .head h2 {
     font-size: 32px;
   }
+
+  .accordion {
+    font-size: 18px;
+  }
+
+  .panel p {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 486px) {
@@ -37,7 +45,7 @@
   header .header-slogan h2 {
     font-size: 25px;
   }
-  header .sign-option {
+  .sign-option {
     width: 100%;
   }
 }
