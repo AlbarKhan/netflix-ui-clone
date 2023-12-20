@@ -24,20 +24,23 @@
           <h3 class="text-light">Sign In</h3>
           <input
             type="text"
+            id="email"
             class="form-control mt-4 bg-dark"
             placeholder="Email address"
           />
           <br />
           <input
             type="password"
+            id="password"
             class="form-control mt-2 bg-dark"
             placeholder="password"
           />
-          <button class="btn btn-danger w-100 mt-5">Sign in</button>
+          <button class="btn btn-danger w-100 mt-5" onclick="myFunction()">
+            Sign in
+          </button>
 
           <input type="radio" class="mt-2" />
-          <label for="RemeberMe" class="text-secondary">Remember me</label
-          ><br />
+          <label for="radio" class="text-secondary">Remember me</label><br />
         </div>
 
         <div class="sign-form-bottom mt-5">
@@ -101,5 +104,25 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      // const mail = document.getElementById("email").value;
+      // console.log(mail);
+
+      function myFunction() {
+        const mail = document.getElementById("email").value;
+        const pass = document.getElementById("password").value;
+        console.log(mail);
+        if (mail == null || mail.trim() == "") {
+          alert("Pllease Enter a Email ID");
+          return;
+        } else if (pass == null || pass.trim() == "") {
+          alert("Password Cannot be Empty");
+          return;
+        } else {
+          window.location.href = "index.html";
+        }
+      }
+    </script>
   </body>
 </html>
